@@ -2,6 +2,7 @@ url: https://vieuxtypes.github.io/cochr/
 
 template:
   bootstrap: 5
+  # logo: man/figures/logo.png
 
 navbar:
   structure:
@@ -11,3 +12,6 @@ navbar:
     carte:
       text: "Carte en ligne"
       href: articles/carte_en_ligne.html
+
+
+

@@ -1,5 +1,7 @@
 # cochr
 
+![](reference/figures/logo.png)
+
 Get an interactive map from your personnal data from eBird.
 
 ## Installation
