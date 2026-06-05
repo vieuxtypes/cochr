@@ -1,0 +1,47 @@
+---
+title: "Carte en ligne"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Carte en ligne}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+<style>
+/* enlève les contraintes de largeur/hauteur de pkgdown */
+main,
+.container,
+.container-fluid,
+.contents,
+section {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* enlève le titre de page */
+.page-header {
+  display: none !important;
+}
+
+/* iframe plein écran sous la barre pkgdown */
+.shiny-app-frame {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 56px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.shiny-app-frame iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: calc(100vh - 56px) !important;
+  border: none !important;
+  display: block;
+}
+</style>
+
+<div class="shiny-app-frame">
+  <iframe src="https://phacochr.shinyapps.io/cochr/"></iframe>
+</div>

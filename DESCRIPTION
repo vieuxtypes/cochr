@@ -1,9 +1,10 @@
 Package: cochr
-Title: Cochr.
+Title: cochr
 Version: 1.0
 Authors@R: 
     person("Hugo", "Périlleux", , "hugo.perilleux@ulb.be", role = c("aut", "cre"))
 Description: Create a map from personnal eBrid data.
+URL: https://vieuxtypes.github.io/cochr/
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -19,3 +20,4 @@ Imports:
 Depends: 
     R (>= 3.5)
 LazyData: true
+Config/Needs/website: rmarkdown

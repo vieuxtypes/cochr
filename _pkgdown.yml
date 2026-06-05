@@ -1,4 +1,13 @@
-url: ~
+url: https://vieuxtypes.github.io/cochr/
+
 template:
   bootstrap: 5
 
+navbar:
+  structure:
+    left: [intro, reference, carte]
+
+  components:
+    carte:
+      text: "Carte en ligne"
+      href: articles/carte_en_ligne.html

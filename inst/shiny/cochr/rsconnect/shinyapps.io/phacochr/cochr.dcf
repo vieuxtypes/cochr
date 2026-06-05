@@ -1,0 +1,10 @@
+name: cochr
+title:
+username: phacochr
+account: phacochr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17473338
+bundleId: 12088938
+url: https://phacochr.shinyapps.io/cochr/
+version: 1
