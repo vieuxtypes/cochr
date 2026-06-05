@@ -1,0 +1,21 @@
+Package: cochr
+Title: Cochr.
+Version: 1.0
+Authors@R: 
+    person("Hugo", "Périlleux", , "hugo.perilleux@ulb.be", role = c("aut", "cre"))
+Description: Create a map from personnal eBrid data.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: 
+    dplyr,
+    htmltools,
+    leaflet,
+    readr,
+    rlang,
+    sf,
+    utils
+Depends: 
+    R (>= 3.5)
+LazyData: true
