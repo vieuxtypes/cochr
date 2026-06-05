@@ -1,0 +1,9 @@
+pandoc: 3.6.3
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles:
+  carte_en_ligne: carte_en_ligne.html
+last_built: 2026-06-05T20:36Z
+urls:
+  reference: https://vieuxtypes.github.io/cochr/reference
+  article: https://vieuxtypes.github.io/cochr/articles
