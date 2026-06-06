@@ -5,6 +5,6 @@ account: phacochr
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 17473338
-bundleId: 12088938
+bundleId: 12091137
 url: https://phacochr.shinyapps.io/cochr/
 version: 1

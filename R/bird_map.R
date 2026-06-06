@@ -81,7 +81,7 @@ bird_map <- function(ebird_file) {
     leaflet::addCircleMarkers(
       lng = ~Longitude,
       lat = ~Latitude,
-      radius = 2.4,
+      radius = 3,
       stroke = FALSE,
       fillOpacity = 0.8,
       color = "black",
@@ -102,7 +102,9 @@ bird_map <- function(ebird_file) {
         noHide = TRUE,
         direction = "bottom",
         textOnly = TRUE,
-        offset = c(0, -4)
+        offset = c(0, -4),
+        style = list(
+          "font-size" = "14px")
       ),
       group = "labels"
     ) |>
